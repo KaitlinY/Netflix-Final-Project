@@ -1,0 +1,118 @@
+fieldset {
+  display: inline;
+  width: 400px; 
+  height: 300px;
+  color: #e60000;
+}
+legend {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  color: #e60000;
+
+    
+}
+label.field{
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
+  width: 100px;
+  font-weight: bold;
+  color: #e60000;
+  
+}
+input.textbox-300 {
+  width: 200px;
+  float: left;
+  color: #e60000;
+  
+ 
+}
+fieldset p{
+  clear: both;
+  padding: 10px;
+   color: #e60000;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 60px;
+   margin-left: 50px;
+  margin-right: 50px;
+  background-color: #ff4d4d4d;
+  color: #e60000;
+  
+}
+
+.btn { 
+background: #f5eeed;  
+background-image: -webkit-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -moz-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -ms-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -o-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: linear-gradient(to bottom, #f5eeed, #c4cbcf);  
+-webkit-border-radius: 28;  
+-moz-border-radius: 28;  
+border-radius: 28px;  
+text-shadow: 1px 1px 3px #666666;  
+font-family: "Questrial";  
+color: #c21818;  
+font-size: 60px;  
+padding: 40px 40px 40px 40px;  
+text-decoration: none;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.button2 { 
+background: #f5eeed;  
+background-image: -webkit-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -moz-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -ms-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: -o-linear-gradient(top, #f5eeed, #c4cbcf);  
+background-image: linear-gradient(to bottom, #f5eeed, #c4cbcf);  
+-webkit-border-radius: 28;  
+-moz-border-radius: 28;  
+border-radius: 28px;  
+text-shadow: 1px 1px 3px #666666;  
+font-family: "Questrial";  
+color: #c21818;  
+font-size: 40px;  
+padding: 30px 30px 30px 30px;  
+text-decoration: none;
+}
+.button2:hover {
+  text-decoration: none;
+}
+
+h2 {
+   font-family: 'Questrial', sans-serif;
+  font-size: 60px;
+}
+h3 {
+   font-family: 'Questrial', sans-serif;
+  font-size: 60px;
+}
+h4 {
+   font-family: 'Questrial', sans-serif;
+  font-size: 60px;
+}
+
+
+#result{ 
+  background-image: url("https://lh5.ggpht.com/gSs4M00WA2RgVosyh8vc3w3K5s2xZ2gjMpaY63izhCcaGIpCkDdGg-IAqdeJwShT4qk=w300");
+
+}
+
+#home{
+  background-image: url("http://images.offerpop.com/wp-content/uploads/2014/08/Movies.jpg?d00527");
+}
+
+
+
+#filmroll{
+  background-image: url("http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprd3821363.png")
+}
+
+#fontsize{
+  font-size: 70px;
+}
+

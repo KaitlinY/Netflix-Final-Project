@@ -1,0 +1,28 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+      <link type="text/css" rel="stylesheet" href = "css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  
+</head>
+<body id="result">
+  <h1 style="color:black;">You should watch...</h1>
+  <% @tv_hash[@suggestion.genre.to_sym][@suggestion.amount.to_sym][@suggestion.rating.to_sym][@suggestion.gender.to_sym].each do |title, info| %>
+  <br>
+  <center><h2><%= info[0] %></h2></center>
+  <% @url = info[1] %>
+ 
+  <% end %>
+  <center><img src="<%=@url%>" style="width:400px;height:600px;"></center>
+</body>
+</html>
+
+
+
+
